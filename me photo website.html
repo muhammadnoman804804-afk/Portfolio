@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Noman Website</title>
+  <link rel="stylesheet"href="stolo.css">
+  </head>
+  <body>
+     <header class="hero">
+    <div class="container">
+      <h1 class="site-title">Noman's Portfolio</h1>
+      <div class="subtitle">Student | Web Developer | Learner</div>
+    </div>
+  </header>
+    <div id="div"></div>
+    <h2>My Personal Website</h2>
+    <nav>
+    <div class="nav-inner">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </div>
+  </nav>
+  <style>
+    :root{
+      --green:white;
+      --dark:rgb(71, 54, 54);
+      --light:rgb(175, 180, 166);
+      --max-width:600px;
+      --card-radius:119px;
+      --font-sans: 'Helvetica Neue', Arial, sans-serif;
+    }
+    *{
+        box-sizing:border-box;
+        margin:0;
+        padding: 2px;
+        font-family: Arial, sans-serif;
+      }
+      img{
+        width: 130px;
+        height: auto;
+        top: 500px;
+        margin-left: 70%;
+        border: 2px solid rgb(163, 4, 4);
+        border-radius: 10% ;
+      }
+      header {
+        background-color: #678667;
+        color: rgb(18, 18, 18);
+        text-align: center;
+        padding: 30px;
+      }
+
+    body{
+        margin:0;
+        font-family:var(--font-sans);
+        background:white;
+        color:#591111;
+    }
+    .hero{
+        background:var(--green);
+        color:black;
+        padding:48px;
+        text-align:center;
+        margin:0;
+    }
+    .container{
+        background:white;
+        margin:0;
+        padding:3px;
+
+  
+    }
+    .site-title{
+        font-size:50px;
+        font-weight:700;
+        margin:0;
+        color:black;
+        background:orange;
+      }
+    .subtitle{
+        margin-top:0px;
+        font-weight:500;
+        opacity:0.95;
+        color:black;
+        background:orange;
+    }
+    .avatar-wrap{
+        margin:22px auto 0;
+        width:128px;
+        height:128px;
+        border-radius:999px;
+        background:rgb(213, 174, 174);
+        padding:6px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .avatar{
+        width:110%;
+        height:110%;
+        border-radius:999px;
+        object-fit:cover;
+        display:rgb(205, 188, 188);
+    }
+    nav{
+        background:black;
+        color:rgb(182, 31, 31);
+    }
+    .nav-inner{
+        max-width:var(--max-width);
+        margin:0 auto;
+        display:flex;
+        gap:24px;
+        justify-content:center;
+        padding:14px 16px;
+        color:white;
+    }
+      .nav-link{
+        color:rgb(226, 216, 216);
+        text-decoration:none;
+        font-weight:600;
+        letter-spacing:0.4px;
+    }
+  
+    main{
+        background:var(--light);
+        padding:40px 16px;
+        color:rgb(36, 33, 33);
+        background-color:white;
+    }
+    .card{
+        background:white;
+        border-radius:var(--card-radius);
+        padding:3px;
+        box-shadow:10px;
+        color:black;
+      }
+    h2{
+        font-size:30px;
+        margin:18px;
+        font-weight:700;
+        color:rgb(36, 35, 35);
+        text-decoration-line: underline;
+    }
+    p.lead{
+        line-height:1.5;
+        color:rgb(55, 52, 52);
+        margin:0;
+
+    }
+    ul.projects{
+        padding-left:20px;
+        margin:0;
+    }
+    ul.projects li{
+        margin:0;
+        font-size:18px;
+        color:rgb(43, 43, 47);
+    }
+    button{
+      background:rgb(27, 27, 25);
+      text-align:center;
+      color:rgb(232, 225, 225);
+    }
+   footer{
+        background:rgb(20, 19, 19);
+        color:rgb(22, 20, 20);
+        text-align:center;
+        padding:18px 0;
+        margin-top:26px;
+        padding: 15px 0;
+        font-size: 14px;
+   }
+     </style>
+</head>
+<body>
+ 
+
+  <main>
+   
+      </section>
+      <secion id="about"></secion>
+      <h2>About Me :</h2>
+      <img src="Nomi.JPG" alt="My Picture">
+       <p class="lead">Hi!I am Muhammad Noman.  I am a student of CIT(Computer Information Technology)GCT Bhakkar. passionate about web development. I am learning HTML, CSS, and JavaScript to build simple and creative websites. </p>
+        <div class="grid">
+        <article class="card">
+          <h3 class="kicker">Education :</h3>
+          <p>The Diploma of DAE in CIT/Computer Infomation Technology GCT  Bhakkar. City :Bhakkar. Key subjects: Programming, Databases, Networking, Web Development.</p>
+        </article>
+        <article class="card">
+          <h3 class="kicker">Skills :</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript (Basic to Intermediate)</li>
+            <li>Version Control: Git / GitHub</li>
+            <li>Design thinking and problem solving</li>
+            <li>web Development</li>
+            <li>data base</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3 class="kicker">Experience :</h3>
+          <p>Freelance / Part-time projects — Landing pages, portfolio sites, small business contact forms.</p>
+        </article>
+      </div>
+      <div class="card" style>
+        <h3>A Short Story :</h3>
+        <p>I was interested in technology since childhood. I built small websites for school projects.
+          With time, I grew in the web world, and now I am sharing my own website with you.</p>
+      </div>
+    </section>
+    <section id="projects" style="margin-top:28px">
+      <h2>My Projects :</h2>
+        <ul class="projects">
+          <li>Personal Portfolio Website</li>
+          <li>Student Task Manager</li>
+          <li>Local Tourist Guide Website</li>
+          <li>Web Development</li>
+          <li>Graphic Design</li>
+          <li>Networking</li>
+          <li>Social media</li>
+          <li>Data Base</li>
+        </ul>
+      </section>
+      <section id="contact">
+      <h2>Contact Me :</h2>
+<p>
+  The form below is only for demo purposes.  You may contact me with this table who are below. With a backend, this can send data
+  to a server. For now, it works only in the browser.
+</p>
+
+<form>
+  <table border="2" cellspacing="20">
+    <tr>
+      <td><label for="name">Name:</label></td>
+      <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+    </tr>
+    <tr>
+      <td><label for="father">Father Name:</label></td>
+      <td><input type="text" id="father" name="father" placeholder="Enter your father name"></td>
+    </tr>
+    <tr>
+      <td><label for="email">Email:</label></td>
+      <td><input type="email" id="email" name="email" placeholder="you@example.com"></td>
+    </tr>
+    <tr>
+      <td><label for="message">Message:</label></td>
+      <td><textarea id="message" name="message" placeholder="Write your message"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align:center;">
+        <button type="submit">Send Message</button>
+      </td>
+    </tr>
+  </table>
+</form>
+</section>
+      <div class="grid">
+        <div class="card">
+          <h3>Other Ways :</h3>
+          <ul>
+            <li>Email: <a href="muhammadnoman804804@gmail.com">muhammadnoman804804@gmail.com</a></li>
+            <li>Phone: <a href="tel:+92 3287901206">+92 3287901206</a></li>
+            <li>Address: Saray-Mohajir,Bhakkar</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Contact Guidelines :</h3>
+          <p>Office hours: Mon–Fri, 10am–6pm. On weekends, send an email; you’ll get a quick reply.</p>
+        </div>
+      </div>
+    </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">@ 2025 My Portfolio Muhammad Noman</div>
+  </footer>
+
+</body>
+</html>
