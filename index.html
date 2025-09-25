@@ -36,17 +36,26 @@
         margin:0;
         padding: 2px;
         font-family: Arial, sans-serif;
-      }
-      img{
-        width: 130px;
-        height:130;
-        top: 500px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-left: 70%;
-        border: 2px solid rgb(163, 4, 4);
-        border-radius:400% ;
-      }
+    }
+
+        .profile-image {
+            width: 300px;
+            height: 300px;
+            margin-top: 20px;
+            border-radius: 60%;
+            margin-left:  auto;
+            overflow:hidden;
+            border: 5px solid #e96642;
+            box-shadow:  15px rgba(91, 70, 70, 0.1);
+        }
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover
+        }
+        #image-upload{
+            display: none;
+        }
       header {
         background-color: #678667;
         color: rgb(18, 18, 18);
@@ -178,15 +187,22 @@
      </style>
 </head>
 <body>
- 
-
   <main>
-   
-      </section>
+   </section>
+  
       <secion id="about"></secion>
+       <div class="profile-card">
+        <div class="profile-image">
+            <img src="Nomi.JPG" alt="My Picture" id="profile-pic">
+        </div>
+        <h2 class="profile-name"></h2>
+        <div class="image-upload-container">
+            <label for="image-upload" class="image-upload-label"></label>
+            <input type="file" id="image-upload" accept="image/*">
+          </div>
+      </div>
       <h2>About Me :</h2>
-      <img src="Nomi.JPG" alt="My Picture">
-       <p class="lead">Hi!I am Muhammad Noman.  I am a student of CIT(Computer Information Technology)GCT Bhakkar. passionate about web development. I am learning HTML, CSS, and JavaScript to build simple and creative websites. </p>
+      <p><strong>Hi!</strong>I am<strong> Muhammad Noman</strong>. I am a student of <strong>CIT (Computer Information Technology)</strong> at <strong>GCT Bhakkar</strong>. I'm passionate about web development and learning HTML, CSS, and JavaScript to build simple and creative websites.</p>
         <div class="grid">
         <article class="card">
           <h3 class="kicker">Education :</h3>
