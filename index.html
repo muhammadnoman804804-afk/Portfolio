@@ -39,19 +39,19 @@
     }
 
         .profile-image {
-            width: 300px;
-            height: 300px;
+            width: 200px;
+            height: 200px;
             margin-top: 20px;
-            border-radius: 60%;
+            border-radius: 70%;
             margin-left:  auto;
             overflow:hidden;
-            border: 5px solid #e96642;
+            border: 4px solid #e96642;
             box-shadow:  15px rgba(91, 70, 70, 0.1);
         }
         .profile-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover
+            width:100%;
+            height:100%;
+            object-fit: cover;
         }
         #image-upload{
             display: none;
@@ -189,8 +189,8 @@
 <body>
   <main>
    </section>
-  
-      <secion id="about"></secion>
+  <div>
+     <div secion id="about"></secion>
        <div class="profile-card">
         <div class="profile-image">
             <img src="Nomi.JPG" alt="My Picture" id="profile-pic">
@@ -199,9 +199,7 @@
         <div class="image-upload-container">
             <label for="image-upload" class="image-upload-label"></label>
             <input type="file" id="image-upload" accept="image/*">
-          </div>
-      </div>
-      <h2>About Me :</h2>
+          </div><h2>About Me :</h2>
       <p><strong>Hi!</strong>I am<strong> Muhammad Noman</strong>. I am a student of <strong>CIT (Computer Information Technology)</strong> at <strong>GCT Bhakkar</strong>. I'm passionate about web development and learning HTML, CSS, and JavaScript to build simple and creative websites.</p>
         <div class="grid">
         <article class="card">
@@ -228,7 +226,9 @@
         <p>I was interested in technology since childhood. I built small websites for school projects.
           With time, I grew in the web world, and now I am sharing my own website with you.</p>
       </div>
-    </section>
+    </section></div>
+      </div>
+      
     <section id="projects" style="margin-top:28px">
       <h2>My Projects :</h2>
         <ul class="projects">
